@@ -1,0 +1,23 @@
+.image1{
+    height: 350px;
+    margin-right: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.image2{
+    width: 625px;
+    float: left;
+    margin-right: 10px;
+}
+.container3{
+    clear: both;
+    padding-top: 15px;
+}
+.image3{
+    width: 625px;
+    float: left;
+    margin-right: 10px;
+}

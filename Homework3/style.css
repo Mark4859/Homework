@@ -1,0 +1,41 @@
+body{
+    background: rgb(59, 52, 52);
+}
+#main-box{
+    height: 970px;
+    width: 1050px;
+    background: rgb(47, 73, 107);     
+    margin-left: 510px;
+    display: grid;
+    grid-template-columns:140px 140px 140px 140px 140px 140px 140px;
+    grid-template-rows:  110px 110px 110px 110px 110px 110px 110px 110px ;
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+div{
+    background-color: rgb(47, 73, 107);
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+.pre{
+    color: rgba(255, 255, 255, 0.3);
+}
+.subsequent{
+    color: rgba(255, 255, 255, 0.3);
+}
+.pre:hover{
+    border: 2px solid rgba(255, 255, 255, 0.35);
+}
+.day:hover{
+    border: 2px solid rgba(255, 255, 255, 0.35);
+}
+.subsequent:hover{
+    border: 2px solid rgba(255, 255, 255, 0.35);
+}
+.init{
+    border-bottom: 1px solid rgb(47, 138, 241);
+}
