@@ -1,0 +1,57 @@
+.background{
+    width: 1730px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+.gepard{
+    position: relative;
+    left: 1550px;
+    bottom: 700px;
+    height: 150px;
+}
+.elephant{
+     height: 500px;
+     position: relative;
+     bottom: 500px;
+     right: 150px;
+}
+.eagle{
+    height: 100px;
+    position: relative;
+    bottom: 940px;
+    right: 210px;
+}
+.birds{
+    height: 100px;
+    position: relative;
+    bottom: 1100px;
+    right: 800px;
+}
+.bush{
+    height: 130px;
+    position: relative;
+    bottom: 770px;
+    right: 600px;
+}
+.goat{
+    height: 30px;
+    position: relative;
+    bottom: 800px;
+    right: 800px;
+}
+.gazelle{
+    height: 40px;
+    position: relative;
+    bottom: 760px;
+    right: 680px;
+}
+.stone{
+    height: 30px;
+    position: relative;
+    bottom: 790px;
+    right: 200px;
+}
+
+
+    
