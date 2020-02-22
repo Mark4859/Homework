@@ -1,39 +1,12 @@
-header{
+.wrapper{
     width: 1024px;
-    background: rgb(156, 156, 156);
-    margin: 0 auto;
+    background: rgb(216, 213, 213);
     height: 70px;
 }
 .logo{
     width: 60px;
     float: left;
     padding: 5px;
-}
-.dropdown{
-    position: relative;
-    display: block;
-    z-index: 1;
-    float: left;
-    padding-top: 23px;
-    padding-left: 20px;
-    width: 70px;
-}
-.dropdown span{
-    font-size: 22px;
-}
-.drop-content{
-    position: relative;
-    display: none;
-    text-decoration: none;
-    width: 70px;
-    font-size: 18px;
-}
-.drop-content a{
-    text-decoration: none;
-    color: black;
-}
-.dropdown:hover .drop-content{
-    display: block;
 }
 .navbar{
     float: left;
@@ -42,9 +15,91 @@ header{
 .navbar ul li{
     display: inline;
     list-style-type: none;
-    padding-left: 20px;
+    margin-left: 30px;
+    padding: 10px;
 }
 .navbar ul li a{
     text-decoration: none;
     color: black;
+}
+.navbar ul li:hover{
+    border: 1px solid  rgb(180, 178, 178);
+    border-radius: 12%;
+    -webkit-border-radius: 12%;
+    -moz-border-radius: 12%;
+    -ms-border-radius: 12%;
+    -o-border-radius: 12%;
+    background-color: rgb(180, 178, 178);
+}
+.wrap__menu{
+    width: 1024px;
+    background: rgb(207, 207, 207);
+    height: 50px;
+    border-bottom: 1px solid white;
+}
+.menu{
+    float: left;
+    font-size: 14px;
+}
+.menu ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 7px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li:hover{
+    border: 1px solid  rgb(197, 194, 194);
+    border-radius: 12%;
+    -webkit-border-radius: 12%;
+    -moz-border-radius: 12%;
+    -ms-border-radius: 12%;
+    -o-border-radius: 12%;
+    background-color: rgb(187, 184, 184);
+}
+.wrap__side{
+    width: 300px;
+    background: rgb(151, 151, 151);
+    display: block;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.block__image{
+    width: 280px;
+}
+.first__block{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed whitesmoke;
+}
+.sec__block__img{
+    width: 280px;
+}
+.second__block{
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px dashed whitesmoke;
+}
+.aside{
+    float: left;
+}
+.wrap__content{
+    width: 675px;
+    height: 605px;
+    padding-top: 25px;
+    float: left;
+    background: rgb(151, 151, 151);
+    color: white;
+}
+.content__list ul li{
+    list-style-type: square;
+}
+.content__list ul li a{
+    text-decoration: none;
+    color: white;
 }
