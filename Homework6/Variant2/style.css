@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'afta_sansregular';
+    src: url('aftasansthin-regular-webfont.woff2') format('woff2'),
+         url('aftasansthin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'afta_sansregular';
+}
 .wrapper{
     width: 1240px;
     margin: 0 auto;
@@ -23,9 +33,6 @@
     margin-top: 50px;
     text-align: center;
     line-height: 20px;
-}
-h1{
-    font-family: 'Bebas Neue' ;
 }
 .article{
     border-top: 2px outset rgb(155, 148, 148);
