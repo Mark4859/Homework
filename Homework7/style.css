@@ -1,0 +1,311 @@
+body{
+    background-color: #3e3b4a;
+}
+.wrapper{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #3e3b4a;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.header_content span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.second_block h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.header_content a{
+    text-decoration: none;
+    color: #898691;
+    text-transform: uppercase;
+}
+.first_block{
+    width: 10px;
+    display: flex;
+}
+.second_block{ 
+    line-height: 1px;
+    text-align: center;
+}
+.menu_bars{
+    line-height: 5px;
+    margin-right: 8px;
+}
+.menu_heading{
+    margin-top: 5px;
+}
+.search_heading{
+    margin-right: 13px;
+}
+.des_meet_tech{
+    color: #76737f;
+}
+.search_img{
+    padding-top: 3 px;
+}
+
+
+
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #ffc7b0;
+    letter-spacing: 3px;
+}
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content_one{
+    width: 1020px;
+    height: 512px;
+    background-image: url(img/BusterBulb.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+.buster_bulb_content h1{
+    font-size: 52px;
+    line-height: 1;
+}
+.buster_bulb_content p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.buster_bulb_content, .peak_content{
+    margin-left: 43px;
+}
+.link_one{
+    display: inline-flex;
+    margin-left: 43px;
+    margin-bottom: 40px;
+}
+.link_one a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffe18f;
+    padding: 8px;
+}
+
+
+.content_two{
+    width: 622px;
+    height: 484px;
+    background-image: url(img/Peak.png);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#ffffff;
+}
+.link_two{
+    display: inline-flex;
+    margin-left: 43px;
+    margin-bottom: 40px;
+}
+.link_two a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffe18f;
+    padding: 8px;
+}
+.content_two h2{
+    font-size: 40px;
+}
+.content_two p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.content_three{
+    width: 376px;
+    height: 485px;
+    background-color: #eb7b61;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.good_things{
+    margin-top: 78px;
+}
+.good_things h2{
+    font-weight: 400;
+    font-size: 35px;
+}
+.good_things a{
+    text-decoration: none;
+    border: 2px solid #ffd9d1;
+    color: #ffd9d1;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.good_things p{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.good_things span{
+    color: white;
+}
+.content_three_bottom form{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.content_three_bottom form input{
+    padding-left: 91px;
+    padding-right: 91px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #66689c;
+    border: none;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.content_three_bottom p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+.content_four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 258px;
+    height: 421px;
+    background-image: url(img/Camera1.png);
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.content_four h3{
+    font-size: 33px;
+}
+.link_four{
+    width: 92px;
+    margin-left: 79px;
+    margin-bottom: 37px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #ffe18e;
+
+}
+.link_four a{
+    text-decoration: none;
+    color: #3d3c4a;
+}
+.content_five{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 261px;
+    height: 420px;
+    background-image: url(img/PHONE.png);
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.content_five h3{
+    font-size: 33px;
+}
+.link_five{
+    width: 92px;
+    margin-left: 79px;
+    margin-bottom: 37px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #ffe18e;
+
+}
+.link_five a{
+    text-decoration: none;
+    color: #3d3c4a;
+}
+
+
+
+
+.content_six{
+    width: 460px;
+    height: 422px;
+    background-image: url(img/Camera2.png);
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.content_six h3{
+    font-weight: bold;
+    font-size: 33px;
+}
+.content_six p{
+    font-weight: 400;
+    font-size: 17px;
+}
+.leica_d_lux_content{
+    margin-left: 43px;
+}
+.link_six{
+    border: 2px solid #ffe18f;
+    width: 118px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 145px;
+    text-align: center;
+}
+.link_six a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #76737f;
+}
+.facebook_article{
+    margin-right: 23px;
+
+}
+
+
+
